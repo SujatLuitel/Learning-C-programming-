@@ -2,10 +2,10 @@
 #include <conio.h>
 
 int main(){
-	char a;
+	char input;
 	printf("Enter a letter to check whether its a consonent or a vowel: ");
-	scanf("%c",&a);
-	switch (a){
+	scanf("%c",&input);
+	switch (input){
 		case 'a': printf("Vowel");
 		break;
 		case 'e': printf("Vowel");
